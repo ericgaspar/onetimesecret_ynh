@@ -52,6 +52,7 @@ pushd "$install_dir"
 popd
 
 pushd "$install_dir"
+	ynh_hide_warnings pnpm install
 	ynh_hide_warnings pnpm run build:local
 popd
 
