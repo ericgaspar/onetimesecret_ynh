@@ -55,7 +55,6 @@ pushd "$install_dir"
 	ynh_hide_warnings pnpm run build:local
 popd
 
-
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
