@@ -63,6 +63,8 @@ ram.runtime = "50M"
 
     [resources.ports]
 
+    [resources.apt]
+    packages = "redis-server, libjemalloc-dev, build-essential, libyaml-dev, libffi-dev"
 
     [resources.nodejs]
     version = "22"
